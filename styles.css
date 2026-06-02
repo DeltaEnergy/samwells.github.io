@@ -172,13 +172,10 @@ h2 {
 }
 
 .skill {
-  background: #151823;
-  border: 1px solid #2a2f3d;
-  color: #7dd3fc;
-  padding: 0.6rem 1rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  font-weight: 500;
+    background: red;
+    color: white;
+    padding: 20px;
+    display: inline-block;
 }
 
 .skill:hover {
