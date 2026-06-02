@@ -1,3 +1,9 @@
+.skill {
+  background: red !important;
+  color: white !important;
+  padding: 20px !important;
+  display: inline-block !important;
+}
 * {
   box-sizing: border-box;
 }
