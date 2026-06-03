@@ -381,3 +381,26 @@ body {
   margin: 0 auto;
   padding: 4rem 2rem;
 }
+.project-body {
+  display: block;
+}
+
+.project-body .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+}
+
+.project-body main {
+  margin-left: 280px;
+  width: calc(100vw - 280px);
+  max-width: none;
+  padding: 3rem;
+}
+
+.project-page {
+  max-width: 1050px;
+  margin: 0 auto;
+}
