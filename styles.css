@@ -404,3 +404,35 @@ body {
   max-width: 1050px;
   margin: 0 auto;
 }
+/* Fix project page layout */
+.project-body {
+  display: block !important;
+}
+
+.project-body .sidebar {
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 280px !important;
+  height: 100vh !important;
+}
+
+.project-body main {
+  margin-left: 280px !important;
+  width: calc(100vw - 280px) !important;
+  max-width: none !important;
+  padding: 2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
+
+.project-page {
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+}
+
+.project-page .hero {
+  margin-top: 0 !important;
+}
