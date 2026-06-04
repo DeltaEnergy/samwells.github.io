@@ -461,33 +461,32 @@ body {
   visibility: visible;
 }
 
-body.light-mode {
+body.light-mode #main-site {
   background: #f5f7fb;
   color: #111827;
 }
 
-body.light-mode .hero,
-body.light-mode .card,
-body.light-mode .sidebar {
+body.light-mode #main-site .hero,
+body.light-mode #main-site .card {
   background: #ffffff;
   color: #111827;
   border-color: #d1d5db;
 }
 
-body.light-mode h1,
-body.light-mode h2,
-body.light-mode h3 {
+body.light-mode #main-site h1,
+body.light-mode #main-site h2,
+body.light-mode #main-site h3 {
   color: #111827;
 }
 
-body.light-mode p,
-body.light-mode .card p,
-body.light-mode .hero p,
-body.light-mode .caption {
+body.light-mode #main-site p,
+body.light-mode #main-site .card p,
+body.light-mode #main-site .hero p,
+body.light-mode #main-site .caption {
   color: #374151;
 }
 
-body.light-mode .skill {
+body.light-mode #main-site .skill {
   background: #eef6ff;
   color: #0369a1;
   border-color: #bfdbfe;
