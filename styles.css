@@ -436,3 +436,6 @@ body {
 .project-page .hero {
   margin-top: 0 !important;
 }
+.project-page .button {
+  margin-bottom: 1.5rem;
+}
